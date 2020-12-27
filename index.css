@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    
+}
+:root{
+    --primary-font-color:rgb(245, 229, 90);
+}
+.content{
+    height: 100vh;
+}
+body{
+    background: linear-gradient(90deg,Black,rgb(22, 22, 22));
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.icon-prop{
+   
+    font-size: 3rem;
+    position: fixed;
+    right:0;
+    padding:20px;
+    cursor: pointer;
+   
+    color: var(--primary-font-color);
+}
+.icon-prop:hover{
+
+transition: 0.25s ease-in-out;
+}
+.main-head{
+    font-size:3rem;
+    text-align:center;
+    font-family: Fredoka One;
+    letter-spacing: 0.5mm;
+    color:var(--primary-font-color);
+    
+}
+.main-head span{
+    letter-spacing: 1mm;
+    font-size:4.5rem;
+}
+.main-head-container{
+    padding-top:180px;
+}
+.search-type-links{
+    text-align: center;
+    margin-top:50px;
+  
+}
+.link{
+    display: inline-block;
+    text-decoration: none;
+    padding:30px;
+    border:4px solid var(--primary-font-color);
+    font-family: Fredoka One;
+    font-size:1.5rem;  
+    border-radius:10px;
+    margin:10px;
+    color:var(--primary-font-color);
+    transition: 0.25s ease-in-out;
+
+    
+}
+
+.sticker-link{
+    padding: 30px 20px;
+}
+.link:hover{
+    background-color: var(--primary-font-color);
+    color:black;
+  
+}
+
+.credit{
+    margin-top:10px;
+    text-align:center;
+    padding:20px;
+    font-size:1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--primary-font-color);
+    letter-spacing: 0.3mm;
+}
+@media(max-width:530px){
+    .icon-prop{
+   
+        font-size: 2rem;
+        position: fixed;
+        right:0;
+        padding:15px;
+        cursor: pointer;
+        color: var(--primary-font-color);
+    }
+}
+@media(max-width:494px){
+    .main-head-container{
+        padding-top:130px;
+    }
+    
+    .link{
+       margin:10px 10px;
+       display: block;
+   }
+  
+}
+@media(max-width:400px){
+    .main-head-container{
+        padding-top:50px;
+    }
+    .link{
+        display:block;
+        text-decoration: none;
+        padding:15px;
+        border:4px solid var(--primary-font-color);
+        font-family: Fredoka One;
+        font-size:1rem;  
+        border-radius:10px;
+        margin:10px;
+        color:var(--primary-font-color);
+        transition: 0.25s ease-in-out;
+    
+        
+    }
+    
+   
+    
+}
