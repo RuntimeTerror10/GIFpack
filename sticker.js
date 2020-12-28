@@ -21,7 +21,7 @@ function clearDOM(){
      });
     
     function getGif(query){
-    var url="http://api.giphy.com/v1/stickers/search?q="+ query +"&api_key=UYlkF1oPrRG8xHwxCKokJJHxglPEcEoJ";
+    var url="https://api.giphy.com/v1/stickers/search?q="+ query +"&api_key=UYlkF1oPrRG8xHwxCKokJJHxglPEcEoJ";
     // AJAX call//
     var GiphyAJAXCall = new XMLHttpRequest();
     GiphyAJAXCall.open( 'GET', url );
