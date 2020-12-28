@@ -42,7 +42,6 @@ body{
     display: inline-block;
     width:80px;
     height:55px;
-    border-radius: 8px;
     background-color: var(--secondary-color);
     cursor: pointer;
     transition: 0.25s ease-in-out;
@@ -54,7 +53,6 @@ body{
 .input-box{
     height:55px;
     width:50%;  
-    border-radius:8px;
     font-size: 1rem;
     color:var(--background-color);
 }
