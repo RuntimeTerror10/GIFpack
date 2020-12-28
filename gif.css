@@ -3,7 +3,7 @@
     --secondary-color:rgb(245, 229, 90);
 }
 body{
-    
+    background:rgb(22,22,22);
 }
 .search-icon{
     font-size: 1.2rem;
